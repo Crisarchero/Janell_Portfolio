@@ -9,7 +9,7 @@ $info:#BDE4A7;
 @import '~bootstrap/scss/bootstrap.scss';
 
 
-@media(min-width:1400px){
+@media(min-width:1200px){
   :root{
   font-size:1.5vw;
   }
@@ -22,7 +22,7 @@ $info:#BDE4A7;
     justify-content:space-around;
   }
 }
-@media(min-width:1000px) and (max-width:1400px){
+@media(min-width:1000px) and (max-width:1200px){
   :root{
   font-size:2vw;
   }
