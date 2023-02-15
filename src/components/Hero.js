@@ -1,10 +1,10 @@
 import React from 'react'
-import About from './About'
+import HeroInfo from './HeroInfo'
 const Hero = () => {
     return (
         <div id="hero" className='bg-transparent d-flex flex-column justify-content-center'>
             
-           <About></About>
+           <HeroInfo/>
         </div>
     )
 }

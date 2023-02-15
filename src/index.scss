@@ -1,35 +1,87 @@
-@media(min-width:1000px){
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+
+//Changing Bootstrap variables.
+$primary: #7A9CC6;
+$secondary:#B3D2B2 ;
+$light: #FFFd98;
+$info:#BDE4A7;
+
+@import '~bootstrap/scss/bootstrap.scss';
+
+
+@media(min-width:1400px){
   :root{
-  font-size:1.2vw;
+  font-size:1.5vw;
+  }
+  #project-container{
+    display:flex;
+  }
+  #project-info{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+  }
 }
+@media(min-width:1000px) and (max-width:1400px){
+  :root{
+  font-size:2vw;
+  }
+
+  #project-info{
+    display:block;
+    width:100%;
+  }
+  #project-container{
+    display:block;
+  }
+}
+  
 @media(max-width:1000px){
   :root{
-  font-size:3vw;
-}
-}
+  font-size:2.5vw;
+  }
+
 }
 
-body {
-  margin: 0;
-  box-sizing:border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+//General Styling
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
-#hero, #projects{
+//Component Styling
+#hero, #projects, #about{
   width:100%;
   min-height:100vh;
   padding:0%;
   margin:0;
 
 }
+body {
+  margin: 0;
+  box-sizing:border-box;
+  font-family: 'Pangolin', cursive;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-@import 'bootstrap/dist/css/bootstrap.min.css'
+//Project Section
+
+#project-container{
+  margin-bottom:100px;
+}
+#projects figure img{
+
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+//Toolkit and About Me Section
+#toolkit img{
+
+  padding:5%;
+  margin:1%;
+  background:#BDE4A7;
+  border-radius:50%;
+
+}
+
