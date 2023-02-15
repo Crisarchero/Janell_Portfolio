@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Janell_Portfolio/static/css/main.82d71747.css",
+    "main.css": "/Janell_Portfolio/static/css/main.ca695ae9.css",
     "main.js": "/Janell_Portfolio/static/js/main.c89ec9b0.js",
     "static/js/787.128fc6e9.chunk.js": "/Janell_Portfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/activity_generator.png": "/Janell_Portfolio/static/media/activity_generator.84bf99ee0935675e39dd.png",
@@ -12,12 +12,12 @@
     "index.html": "/Janell_Portfolio/index.html",
     "static/media/icons8-css3.svg": "/Janell_Portfolio/static/media/icons8-css3.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/icons8-html-5.svg": "/Janell_Portfolio/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
-    "main.82d71747.css.map": "/Janell_Portfolio/static/css/main.82d71747.css.map",
+    "main.ca695ae9.css.map": "/Janell_Portfolio/static/css/main.ca695ae9.css.map",
     "main.c89ec9b0.js.map": "/Janell_Portfolio/static/js/main.c89ec9b0.js.map",
     "787.128fc6e9.chunk.js.map": "/Janell_Portfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.82d71747.css",
+    "static/css/main.ca695ae9.css",
     "static/js/main.c89ec9b0.js"
   ]
 }
