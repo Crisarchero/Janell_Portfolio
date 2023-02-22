@@ -9,10 +9,10 @@ import Node from '../images/icons/icons8-node-js.svg'
 
 const Toolkit = () => {
     return (
-        <div id="toolkit" className = "w-50">
+        <div id="toolkit">
             <h2>Toolkit</h2>
             <h3>Front End</h3>
-            <div id = "front-end" className = "w-50">
+            <div id = "front-end">
 
                 <img className src={HTML5} alt = "HTML"></img>
                 <img src={CSS3} alt = "CSS"></img>

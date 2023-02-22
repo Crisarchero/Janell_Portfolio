@@ -13,9 +13,10 @@ function App() {
       <Hero />
       <Projects />
  
-      <div className="d-flex p-5">     
-        <About/>
-        <Toolkit />
+      <div className="d-flex flex-md-row flex-sm-column m-3 p-5 justify-content-md-around">     
+         <Toolkit />
+         <About/>
+       
       </div> 
 
       <div className = "d-flex justify-content-center align-items-center">

@@ -1,0 +1,42 @@
+
+#hero, #projects, #about{
+    width:100%;
+    min-height:100vh;
+    padding:0%;
+    margin:0;
+  
+  }
+  body {
+   
+    margin: 0;
+    box-sizing:border-box;
+    font-family: 'Pangolin', cursive;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  
+#project-container{
+  margin-bottom:100px;
+  border-image-source: url('./images/our_song.png');
+  border-image-width:30px;
+  border-image-repeat:repeat;
+}
+#projects figure img{
+
+  width:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
+
+
+#toolkit img{
+
+  padding:5%;
+  margin:1%;
+ 
+
+}

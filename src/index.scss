@@ -6,6 +6,11 @@ $secondary:#B3D2B2 ;
 $light: #FFFd98;
 $info:#BDE4A7;
 
+//Newest Change
+$primary: #F2889b;
+$secondary:#f28444 ;
+$light: #fff8ee;
+$info:#9fbfa4;
 @import '~bootstrap/scss/bootstrap.scss';
 
 
@@ -15,11 +20,14 @@ $info:#BDE4A7;
   }
   #project-container{
     display:flex;
+   
   }
   #project-info{
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:flex-end;
+    width:50%;
+    margin-top: 0%;
   }
 }
 @media(min-width:1000px) and (max-width:1200px){
@@ -27,61 +35,22 @@ $info:#BDE4A7;
   font-size:2vw;
   }
 
-  #project-info{
-    display:block;
-    width:100%;
-  }
+  
   #project-container{
     display:block;
   }
 }
   
-@media(max-width:1000px){
+@media(max-width:1000px) and (min-width: 750px){
   :root{
   font-size:2.5vw;
   }
 
 }
-
-//General Styling
-
-//Component Styling
-#hero, #projects, #about{
-  width:100%;
-  min-height:100vh;
-  padding:0%;
-  margin:0;
-
-}
-body {
-  margin: 0;
-  box-sizing:border-box;
-  font-family: 'Pangolin', cursive;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-//Project Section
-
-#project-container{
-  margin-bottom:100px;
-}
-#projects figure img{
-
-  width:100%;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-
-}
-
-//Toolkit and About Me Section
-#toolkit img{
-
-  padding:5%;
-  margin:1%;
-  background:#BDE4A7;
-  border-radius:50%;
+@media(max-width:750px){
+  :root{
+  font-size:4vw;
+  }
 
 }
 
