@@ -18,9 +18,19 @@
   
 #project-container{
   margin-bottom:100px;
-  border-image-source: url('./images/our_song.png');
-  border-image-width:30px;
-  border-image-repeat:repeat;
+  border:2px solid;
+  border-image-source: url('./images/Pencil_Border.png');
+  border-image-slice:2 2 2 2;
+
+  border-image-repeat:repeat repeat;
+}
+
+nav {
+  border-bottom:2px solid;
+  border-image-source: url('./images/Pencil_Border.png');
+  border-image-slice:2 2 2 2;
+  border-image-outset:0px 0px 0px 0px;
+  border-image-repeat:repeat repeat;
 }
 #projects figure img{
 
