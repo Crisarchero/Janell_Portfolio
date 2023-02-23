@@ -3,7 +3,7 @@ import Buttons from './Buttons'
 
 const ProjContainer = (props) => {
   return (
-    <div id="project-container" className="shadow-sm mt-2">
+    <div id="project-container" className="shadow-sm mt-5 mb-5 flex-fill">
 
       <figure className="container overflow-hidden p-0">
         <img className="border rounded" src={props.project.img} alt=""></img>

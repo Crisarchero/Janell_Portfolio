@@ -4,8 +4,28 @@
     min-height:100vh;
     padding:0%;
     margin:0;
-  
+    margin-bottom:100px;
+
   }
+
+  #project-carousel #project-container{
+    height:800px;
+  }
+#project-carousel button{
+  width:1%;
+  border:none;
+
+}
+
+  .btn {
+    border:7px solid;
+    border-radius:0;
+    border-image-source: url('./images/pencil_border_square.PNG');
+    border-image-slice:27;
+    border-image-repeat:repeat repeat;
+  }
+
+ 
   body {
    
     margin: 0;
@@ -15,15 +35,6 @@
     -moz-osx-font-smoothing: grayscale;
   }
   
-  
-#project-container{
-  margin-bottom:100px;
-  border:2px solid;
-  border-image-source: url('./images/Pencil_Border.png');
-  border-image-slice:2 2 2 2;
-
-  border-image-repeat:repeat repeat;
-}
 
 nav {
   border-bottom:2px solid;
@@ -32,8 +43,8 @@ nav {
   border-image-outset:0px 0px 0px 0px;
   border-image-repeat:repeat repeat;
 }
-#projects figure img{
 
+#projects figure img{
   width:100%;
   display:flex;
   justify-content:center;
@@ -44,9 +55,6 @@ nav {
 
 
 #toolkit img{
-
   padding:5%;
   margin:1%;
- 
-
 }

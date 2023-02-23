@@ -81,10 +81,10 @@ export default class Projects extends Component {
 
           :
 
-          <div className="d-flex align-items-center">
-            <button className="btn" onClick={this.back}>&lt;</button>
+          <div id = "project-carousel" className="d-flex align-items-center">
+            <button className="btn flex-shrink-1" onClick={this.back}>&lt;</button>
             <ProjContainer project={this.projects[this.state.counter]} />
-            <button className="btn" onClick={this.forward}>&gt;</button>
+            <button className="btn flex-shrink-1" onClick={this.forward}>&gt;</button>
           </div>
         }
 
