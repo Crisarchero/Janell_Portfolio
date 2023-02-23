@@ -11,23 +11,25 @@ const Toolkit = () => {
     return (
         <div id="toolkit">
             <h2>Toolkit</h2>
-            <h3>Front End</h3>
+            <h3>Most Used</h3>
             <div id = "front-end">
 
                 <img className src={HTML5} alt = "HTML"></img>
                 <img src={CSS3} alt = "CSS"></img>
                 <img src = {JS} alt = "JavaScript"></img>
-                <img src = {React} alt = "React"></img>
+                <img src = {React} alt = "React"></img> 
+                <img src={Mongodb} alt = "MongoDB"></img>
+                <img src={Node} alt = "NodeJS"></img>
+
 
             </div>
 
-            <h3>Backend</h3>
+            <h3>Other</h3>
             <div>
 
-                <img src={Mongodb} alt = "MongoDB"></img>
+               
                 <img src={MySQL} alt = "MySQL"></img>
-                <img src={Node} alt = "NodeJS"></img>
-
+                
             </div>
         </div>
 

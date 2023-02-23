@@ -11,6 +11,8 @@ $primary: #F2889b;
 $secondary:#f28444 ;
 $light: #fff8ee;
 $info:#9fbfa4;
+
+
 @import '~bootstrap/scss/bootstrap.scss';
 
 
@@ -53,4 +55,9 @@ $info:#9fbfa4;
   }
 
 }
+
+h3, figcaption{
+  color:$info;
+}
+
 

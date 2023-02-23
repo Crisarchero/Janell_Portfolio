@@ -19,7 +19,7 @@ function App() {
        
       </div> 
 
-      <div className = "d-flex justify-content-center align-items-center">
+      <div className = "d-flex justify-content-center align-items-center bg-primary p-5">
       <Contact />
       </div>
     </body>
