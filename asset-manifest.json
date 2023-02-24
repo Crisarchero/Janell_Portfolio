@@ -1,23 +1,27 @@
 {
   "files": {
     "main.css": "/Janell_Portfolio/static/css/main.4ebef302.css",
-    "main.js": "/Janell_Portfolio/static/js/main.998af90a.js",
+    "main.js": "/Janell_Portfolio/static/js/main.913f3b0f.js",
     "static/media/our_song.png": "/Janell_Portfolio/static/media/our_song.11a3839f6a9b4d7863b8.png",
     "static/media/activity_generator.png": "/Janell_Portfolio/static/media/activity_generator.fb0908e1083f59a49c49.png",
     "static/media/pencil_border_square.PNG": "/Janell_Portfolio/static/media/pencil_border_square.52f9e0c0aa493fe4503e.PNG",
     "static/media/icons8-react.svg": "/Janell_Portfolio/static/media/icons8-react.e7574af26628c8d8cc52d64e015eb898.svg",
     "static/media/icons8-mysql-logo.svg": "/Janell_Portfolio/static/media/icons8-mysql-logo.de8aab5285d3a9df77cb81dbe9ea418a.svg",
     "static/media/icons8-node-js.svg": "/Janell_Portfolio/static/media/icons8-node-js.e605cb5828b5744952b567458683f3b2.svg",
+    "static/media/icons8-c-sharp-logo.svg": "/Janell_Portfolio/static/media/icons8-c-sharp-logo.ad2ed3780f378cb4a18cc847d16d393b.svg",
+    "static/media/icons8-php-logo.svg": "/Janell_Portfolio/static/media/icons8-php-logo.bb2b068780db23cc0e78e33ca902fbee.svg",
+    "static/media/icons8-python.svg": "/Janell_Portfolio/static/media/icons8-python.58d5a0a7b305a106917669f9abcc4f3d.svg",
     "index.html": "/Janell_Portfolio/index.html",
     "static/media/icons8-mongodb.svg": "/Janell_Portfolio/static/media/icons8-mongodb.389aa18a9b02da23f02b77ddfc9d12be.svg",
     "static/media/icons8-javascript.svg": "/Janell_Portfolio/static/media/icons8-javascript.19600440c8c62e3de974e2bba991871f.svg",
+    "static/media/icons8-bootstrap.svg": "/Janell_Portfolio/static/media/icons8-bootstrap.99ff40c99633dbe9199a405ec4ff4f65.svg",
     "static/media/icons8-css3.svg": "/Janell_Portfolio/static/media/icons8-css3.64fa1d1c4801d931c3717be71f6c020e.svg",
     "static/media/icons8-html-5.svg": "/Janell_Portfolio/static/media/icons8-html-5.8ae3d4adcd70a1028a6377697d9f33b0.svg",
     "main.4ebef302.css.map": "/Janell_Portfolio/static/css/main.4ebef302.css.map",
-    "main.998af90a.js.map": "/Janell_Portfolio/static/js/main.998af90a.js.map"
+    "main.913f3b0f.js.map": "/Janell_Portfolio/static/js/main.913f3b0f.js.map"
   },
   "entrypoints": [
     "static/css/main.4ebef302.css",
-    "static/js/main.998af90a.js"
+    "static/js/main.913f3b0f.js"
   ]
 }
