@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ProjContainer from './ProjContainer'
 import activityImg from '../images/activity_generator.png'
+import mynotesimg from '../images/mynotes.png'
 import ourSong from '../images/our_song.png'
 
 export default class Projects extends Component {
@@ -31,6 +32,14 @@ export default class Projects extends Component {
   }
   projects =
     [{
+      title: "MyNotes",
+      img: mynotesimg,
+      tools: "MERN stack",
+      description: "A fullstack, digital notebook that uses the MERN stack. Includes basic authentication and tokens. Use 'guest' with the password 'easypassword' to test.",
+      url: "https://main--mynotebooksapp.netlify.app/login",
+      code: "https://github.com/Crisarchero/online-notebook",
+    },
+    {
       title: "OurSong",
       img: ourSong,
       tools: "React, Bootstrap, SCSS, HTML/CSS",
@@ -46,22 +55,7 @@ export default class Projects extends Component {
       url: "https://crisarchero.github.io/activityGenerator/",
       code: "https://github.com/Crisarchero/activityGenerator",
     },
-    {
-      title: "Activity Generator3",
-      img: activityImg,
-      tools: "React, REST API",
-      description: "A simple activity generator that uses the bored API.",
-      url: "https://crisarchero.github.io/activityGenerator/",
-      code: "https://github.com/Crisarchero/activityGenerator",
-    },
-    {
-      title: "Activity Generator4",
-      img: activityImg,
-      tools: "React, REST API",
-      description: "A simple activity generator that uses the bored API.",
-      url: "https://crisarchero.github.io/activityGenerator/",
-      code: "https://github.com/Crisarchero/activityGenerator",
-    }
+  
 
     ]
   render() {
@@ -71,17 +65,16 @@ export default class Projects extends Component {
         <button className="btn btn-secondary" onClick={() => { this.setState({ showAll: !this.state.showAll }) }}> {this.state.showAll ? "Collapse" : "Expand"}</button>
 
         {this.state.showAll ?
-          
-          <div className = "d-flex flex-column" >
-            <ProjContainer project = {this.projects[0]}/>
-            <ProjContainer project = {this.projects[1]}/>
-            <ProjContainer project = {this.projects[2]}/>
-            <ProjContainer project = {this.projects[3]}/>
+
+          <div className="d-flex flex-column" >
+            <ProjContainer project={this.projects[0]} />
+            <ProjContainer project={this.projects[1]} />
+            <ProjContainer project={this.projects[2]} />
           </div>
 
           :
 
-          <div id = "project-carousel" className="d-flex align-items-center">
+          <div id="project-carousel" className="d-flex align-items-center">
             <button className="btn flex-shrink-1" onClick={this.back}>&lt;</button>
             <ProjContainer project={this.projects[this.state.counter]} />
             <button className="btn flex-shrink-1" onClick={this.forward}>&gt;</button>

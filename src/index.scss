@@ -2,62 +2,57 @@
 
 //Changing Bootstrap variables.
 $primary: #7A9CC6;
-$secondary:#B3D2B2 ;
+$secondary: #B3D2B2;
 $light: #FFFd98;
-$info:#BDE4A7;
+$info: #BDE4A7;
 
 //Newest Change
 $primary: #F2889b;
-$secondary:#f28444 ;
+$secondary: #f28444;
 $light: #fff8ee;
-$info:#9fbfa4;
+$info: #9fbfa4;
 
 
 @import '~bootstrap/scss/bootstrap.scss';
 
+:root {
 
-@media(min-width:1200px){
-  :root{
-  font-size:1.5vw;
+  @include media-breakpoint-up(lg) {
+    font-size: 1.5vw;
   }
-  #project-container{
-    display:flex;
-   
+
+  @include media-breakpoint-only(lg) {
+    font-size: 2vw;
   }
-  #project-info{
-    display:flex;
-    flex-direction:column;
-    justify-content:flex-end;
-    width:50%;
+  
+  @include media-breakpoint-only(md) {
+    font-size: 2.5vw;
+  }
+  @include media-breakpoint-only(sm) {
+    font-size: 4vw;
+  }
+}
+
+#project-container {
+  display: block;
+
+  @include media-breakpoint-up(xl) {
+    display: flex;
+  }
+
+}
+
+#project-info {
+  @include media-breakpoint-up(xl) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 50%;
     margin-top: 0%;
   }
 }
-@media(min-width:1000px) and (max-width:1200px){
-  :root{
-  font-size:2vw;
-  }
 
-  
-  #project-container{
-    display:block;
-  }
+
+h3,figcaption {
+  color: $info;
 }
-  
-@media(max-width:1000px) and (min-width: 750px){
-  :root{
-  font-size:2.5vw;
-  }
-
-}
-@media(max-width:750px){
-  :root{
-  font-size:4vw;
-  }
-
-}
-
-h3, figcaption{
-  color:$info;
-}
-
-
